@@ -1,0 +1,19 @@
+apt install
+  - apache2
+  - mariadb-server
+  - php7.0
+  - apache-php module
+  - rewrite module
+  - php-mysql module
+
+Enable modules
+  - sudo a2enmod rewrite
+  - sudo service apache2 reload
+
+Apache apache2.conf:
+  - AllowOverride All
+
+
+sudo a2enmod rewrite
+sudo service apache2 restart
+
