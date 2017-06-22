@@ -1,19 +1,19 @@
-apt install
-  - apache2
-  - mariadb-server
-  - php7.0
-  - apache-php module
-  - rewrite module
-  - php-mysql module
-
-Enable modules
-  - sudo a2enmod rewrite
-  - sudo service apache2 reload
-
-Apache apache2.conf:
-  - AllowOverride All
-
-
-sudo a2enmod rewrite
-sudo service apache2 restart
-
+# install apache mysql php and php-modules
+apt install apache2
+apt install mariadb-server
+apt install php7.0
+apt install apache-php
+apt install rewrite
+apt install php-mysql
+apt install php7.0-xml
+apt install php7.0-sqlite3
+ 
+# Enable modules
+a2enmod rewrite
+ 
+# restart apache
+service apache2 reload
+apache2ctl configtest
+ 
+# Apache apache2.conf:
+#   AllowOverride All
