@@ -1,11 +1,9 @@
+# Linux Installation Script
 
 
-
-curl -fsSL https://github.com/nemundo/linux_script/blob/master/install_dev_machine.sh | sh
-curl -fsSL https://ollama.com/install.sh | sh
-
+## Install Dev Machine
+curl -s https://raw.githubusercontent.com/nemundo/linux_script/refs/heads/master/install_dev_machine.sh | bash
 
 
-curl -fsSL https://github.com/nemundo/linux_script/blob/master/install_ai.sh | sh
-
-
+## Install AI
+curl -s https://raw.githubusercontent.com/nemundo/linux_script/refs/heads/master/install_ai.sh | bash

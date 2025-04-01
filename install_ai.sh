@@ -1,9 +1,3 @@
-#!/bin/sh
-# This script installs Ollama on Linux.
-
-echo "hello ai"
-
-
-
-
+curl -fsSL https://ollama.com/install.sh | sh
+ollama run deepseek-v3
 
