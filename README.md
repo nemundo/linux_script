@@ -1,9 +1,16 @@
 # Linux Installation Script
 
 
+## Update Machine
+```
+sudo apt install curl
+sudo curl -s https://raw.githubusercontent.com/nemundo/linux_script/refs/heads/master/install_machine.sh | sh
+```
+
+
 ## Install Machine
 ```
-sudo apt install git
+sudo apt install curl
 sudo curl -s https://raw.githubusercontent.com/nemundo/linux_script/refs/heads/master/install_machine.sh | sh
 ```
 
