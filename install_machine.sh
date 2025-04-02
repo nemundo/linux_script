@@ -1,6 +1,17 @@
+echo ""
+echo "apt update"
 sudo apt update
+
+echo ""
+echo "apt upgrade"
 sudo apt upgrade
+
+echo ""
+echo "apt-get dist-upgrade -y"
 sudo apt-get dist-upgrade -y
+
+echo ""
+echo "apt install curl"
 sudo apt install curl
 
 sudo snap install brave
