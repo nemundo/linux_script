@@ -3,7 +3,12 @@
 
 ## Install Machine
 ```
-curl -s https://raw.githubusercontent.com/nemundo/linux_script/refs/heads/master/install_machine.sh | bash
+sudo apt install git
+sudo curl -s https://raw.githubusercontent.com/nemundo/linux_script/refs/heads/master/install_machine.sh | sh
+```
+
+```
+wget https://raw.githubusercontent.com/nemundo/linux_script/refs/heads/master/install_machine.sh  -O -q | sh
 ```
 
 ## Install Dev Machine
@@ -16,3 +21,12 @@ curl -s https://raw.githubusercontent.com/nemundo/linux_script/refs/heads/master
 curl -s https://raw.githubusercontent.com/nemundo/linux_script/refs/heads/master/install_ai.sh | sh
 ollama run deepseek-v3
 ```
+
+```
+sudo apt install git
+sudo curl -s https://raw.githubusercontent.com/nemundo/linux_script/refs/heads/master/keyboard.sh | sh
+```
+
+
+
+
